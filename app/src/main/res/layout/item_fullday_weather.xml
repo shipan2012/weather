@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="wrap_content">
+
+        <com.xfshipan.weather.view.WeatherTypefacedTextView
+            android:id="@+id/tv_fullday_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="11:00"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_fullday_weathericon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/tv_fullday_time"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/ic_sunny_big" />
+
+        <com.xfshipan.weather.view.WeatherTypefacedTextView
+            android:id="@+id/tv_fullday_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_fullday_weathericon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="11°"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_fullweek_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.xfshipan.weather.view.WeatherTypefacedTextView
+            android:id="@+id/tv_fullday_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="24Hours"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <com.xfshipan.weather.view.WeatherTypefacedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" | "
+            android:textColor="#ffffff" />
+
+        <com.xfshipan.weather.view.WeatherTypefacedTextView
+            android:id="@+id/tv_week_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Week"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/divider"
+        style="@style/Line.Solid"
+        android:layout_below="@+id/ll_fullweek_title"
+        android:scaleType="fitXY" />
+
+    <FrameLayout
+        android:id="@+id/rv_fullweek_weather"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp">
+
+        <com.xfshipan.weather.view.CustomRecycleView
+            android:id="@+id/rv_fullday_weather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.xfshipan.weather.view.CustomRecycleView
+            android:id="@+id/rv_week_weather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,109 @@
+<resources>>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/baseTextColor</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="toolbar_text_color_primary">@color/textColorPrimary</item>
+        <item name="toolbar_text_color_secondary">@color/textColorSecondary</item>
+        <item name="toolbar_menutext_color">@color/text_menu_color</item>
+        <item name="toolbar_control_normal">@color/baseTextColor</item>
+        <item name="popupwindow_text_color">@color/baseTextColor</item>
+    </style>
+
+    <style name="toolbar_theme">
+        <item name="actionMenuTextColor">@color/baseTextColor</item>
+        <item name="titleTextColor">@color/baseTextColor</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="popupwindow_theme">
+        <item name="android:colorBackground">?attr/popupwindow_bg_color</item>
+        <item name="android:textColor">?attr/popupwindow_text_color</item>
+    </style>
+
+    <!--红色主题-->
+    <style name="AppTheme.RedTheme" parent="AppTheme">
+        <item name="nav_backgroud_color">@color/colorPrimaryRed</item>
+        <item name="colorPrimary">@color/colorPrimaryRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryRed</item>
+        <item name="base_backgroud_color">@color/colorPrimaryRed</item>
+        <item name="colorAccent">@color/colorPrimaryRed</item>
+        <item name="popupwindow_bg_color">@color/colorPrimaryRed</item>
+    </style>
+
+    <!--粉色主题-->
+    <style name="AppTheme.PinkTheme" parent="AppTheme">
+        <item name="nav_backgroud_color">@color/colorPrimaryPink</item>
+        <item name="colorPrimary">@color/colorPrimaryPink</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryPink</item>
+        <item name="base_backgroud_color">@color/colorPrimaryPink</item>
+        <item name="colorAccent">@color/colorPrimaryPink</item>
+        <item name="popupwindow_bg_color">@color/colorPrimaryPink</item>
+    </style>
+
+    <!--绿色主题-->
+    <style name="AppTheme.Green1Theme" parent="AppTheme">
+        <item name="nav_backgroud_color">@color/colorPrimaryGreen1</item>
+        <item name="colorPrimary">@color/colorPrimaryGreen1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryGreen1</item>
+        <item name="base_backgroud_color">@color/colorPrimaryGreen1</item>
+        <item name="colorAccent">@color/colorPrimaryGreen1</item>
+        <item name="popupwindow_bg_color">@color/colorPrimaryGreen1</item>
+    </style>
+
+    <!--绿色主题2-->
+    <style name="AppTheme.Green2Theme" parent="AppTheme">
+        <item name="nav_backgroud_color">@color/colorPrimaryGreen2</item>
+        <item name="colorPrimary">@color/colorPrimaryGreen2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryGreen2</item>
+        <item name="base_backgroud_color">@color/colorPrimaryGreen2</item>
+        <item name="colorAccent">@color/colorPrimaryGreen2</item>
+        <item name="popupwindow_bg_color">@color/colorPrimaryGreen2</item>
+    </style>
+
+    <!--蓝色主题1-->
+    <style name="AppTheme.Blue1Theme" parent="AppTheme">
+        <item name="nav_backgroud_color">@color/colorPrimaryBlue1</item>
+        <item name="colorPrimary">@color/colorPrimaryBlue1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryBlue1</item>
+        <item name="base_backgroud_color">@color/colorPrimaryBlue1</item>
+        <item name="colorAccent">@color/colorPrimaryBlue1</item>
+        <item name="popupwindow_bg_color">@color/colorPrimaryBlue1</item>
+    </style>
+
+    <!--蓝色主题2-->
+    <style name="AppTheme.Blue2Theme" parent="AppTheme">
+        <item name="nav_backgroud_color">@color/colorPrimaryBlue2</item>
+        <item name="colorPrimary">@color/colorPrimaryBlue2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryBlue2</item>
+        <item name="base_backgroud_color">@color/colorPrimaryBlue2</item>
+        <item name="colorAccent">@color/colorPrimaryBlue2</item>
+        <item name="popupwindow_bg_color">@color/colorPrimaryBlue2</item>
+    </style>
+
+    <!--紫色主题-->
+    <style name="AppTheme.PurpleTheme" parent="AppTheme">
+        <item name="nav_backgroud_color">@color/colorPrimaryPurple</item>
+        <item name="colorPrimary">@color/colorPrimaryPurple</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryPurple</item>
+        <item name="base_backgroud_color">@color/colorPrimaryPurple</item>
+        <item name="colorAccent">@color/colorPrimaryPurple</item>
+        <item name="popupwindow_bg_color">@color/colorPrimaryPurple</item>
+    </style>
+
+    <!--黑色主题-->
+    <style name="AppTheme.BlackTheme" parent="AppTheme">
+        <item name="nav_backgroud_color">@color/colorPrimaryBlack</item>
+        <item name="colorPrimary">@color/colorPrimaryBlack</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryBlack</item>
+        <item name="base_backgroud_color">@color/colorPrimaryBlack</item>
+        <item name="colorAccent">@color/colorPrimaryBlack</item>
+        <item name="popupwindow_bg_color">@color/colorPrimaryBlack</item>
+    </style>
+
+</resources>

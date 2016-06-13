@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_managecity"
+            android:icon="@mipmap/ic_location_city_black_48dp"
+            android:title="城市管理" />
+        <item
+            android:id="@+id/nav_change"
+            android:icon="@mipmap/ic_settings_black_48dp"
+            android:title="换肤" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@mipmap/ic_announcement_black_48dp"
+            android:title="关于" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@mipmap/ic_help_black_48dp"
+            android:title="帮助" />
+    </group>
+</menu>

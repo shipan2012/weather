@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff5252</color>
+    <color name="colorPrimaryRed">#ff5252</color>
+    <color name="colorPrimaryPink">#ff8a80</color>
+    <color name="colorPrimaryGreen1">#8bc34a</color>
+    <color name="colorPrimaryGreen2">#66bb6a</color>
+    <color name="colorPrimaryBlue1">#009688</color>
+    <color name="colorPrimaryBlue2">#03a9f4</color>
+    <color name="colorPrimaryPurple">#592ea6</color>
+    <color name="colorPrimaryBlack">#000000</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="text_menu_color">#ffffff</color>
+    <color name="textColorSecondary">#ffffff</color>
+    <color name="toolbar_title_text">#ffffff</color>
+    <color name="baseTextColor">#ffffff</color>
+    <color name="sidebar_item_background_activated_light">#ffeae0f2</color>
+    <color name="sidebar_item_background_activated_dark">#ff4c365d</color>
+    <color name="sidebar_item_background_dark">#ff272627</color>
+    <color name="forecast_gray">#88ffffff</color>
+</resources>
